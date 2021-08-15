@@ -1,0 +1,73 @@
+html {
+  background: antiquewhite;
+  text-align: center;
+  font-size: 10px;
+}
+
+.clock {
+  border: 5px solid black;
+  position: relative;
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  margin-left: 78px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background: url("https://lh3.googleusercontent.com/proxy/wSBMTYahWFy8GGuEbQiu4BXNlfMAg5htT-3nYazi3pesH2th9utlq-mQdElntp9v2ZVPbPvPu9nryqrYb2LG-zXWpDrylVjZ9zkkX5VSLoHa");
+  background-size: cover;
+  transform: translateY(-3px)
+}
+
+/* .hand {
+    width: 100px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    transform-origin: 50%;
+    transform: rotate(90deg);
+    transition: 0.4s all;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+} */
+
+.h1, .m1, .s1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.h1 {
+    width: 50px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-left: 1px;
+    position: absolute;
+    background-color: black;
+}
+
+.m1 {
+    width: 60px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: 3px;
+    margin-top: 0.05px;
+    position: absolute;
+    background-color: black;
+}
+.s1 {
+    width: 67px;
+    border: 0.2px solid black;
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-top: 1.3px;
+    position: absolute;
+    background-color: black;
+}
+
+.fix {
+    margin-top: 100px;
+    margin-left: 650px;
+}
+
+
