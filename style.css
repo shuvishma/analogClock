@@ -7,14 +7,14 @@ html {
 .clock {
   border: 5px solid black;
   position: relative;
-  border-radius: 200px;
-  width: 200px;
-  height: 200px;
+  border-radius: 400px;
+  width: 400px;
+  height: 400px;
   margin-left: 78px;
   align-items: center;
   display: flex;
   justify-content: center;
-  background: url("https://lh3.googleusercontent.com/proxy/wSBMTYahWFy8GGuEbQiu4BXNlfMAg5htT-3nYazi3pesH2th9utlq-mQdElntp9v2ZVPbPvPu9nryqrYb2LG-zXWpDrylVjZ9zkkX5VSLoHa");
+  background: url("https://lh3.googleusercontent.com/proxy/9D5gzy5YKatn9_G6qu-aU9EsYiUOnxyF2kLLSZqY-t2ZNLLzVrbWI43JBeUsSZvN9A8LV0yBCbdBfFJA3rckdxpwe_mZN-4");
   background-size: cover;
   transform: translateY(-3px)
 }
@@ -38,7 +38,7 @@ html {
 }
 
 .h1 {
-    width: 50px;
+    width: 75px;
     border: 1.5px solid black;
     border-radius: 5px;
     margin-left: 1px;
@@ -47,7 +47,7 @@ html {
 }
 
 .m1 {
-    width: 60px;
+    width: 100px;
     border: 1px solid black;
     border-radius: 4px;
     margin-left: 3px;
@@ -56,7 +56,7 @@ html {
     background-color: black;
 }
 .s1 {
-    width: 67px;
+    width: 120px;
     border: 0.2px solid black;
     border-radius: 4px;
     margin-left: 0px;
@@ -67,7 +67,7 @@ html {
 
 .fix {
     margin-top: 100px;
-    margin-left: 650px;
+    margin-left: 550px;
 }
 
 
